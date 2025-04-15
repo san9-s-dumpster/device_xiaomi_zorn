@@ -15,6 +15,7 @@ odm/etc/audio/misound_res_spk_power_game.bin
 odm/etc/audio/misound_res_spk_power_sva.bin
 odm/etc/audio/misound_res_spk_power_video.bin
 odm/etc/audio/misoundsa_spk_config.bin
+odm/lib/rfsa/adsp/libadsp_jpege_skel.so
 odm/lib/rfsa/adsp/libaisupernight_cdsp_skel.so
 odm/lib/rfsa/adsp/libaisupernight_ellc_cdsp_skel.so
 odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so
@@ -160,7 +161,7 @@ odm/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.aon-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.quickcamera-V1-ndk.so
 
-# Camera
+# Camera Resources
 odm/etc/camera/102_SummerDay.png
 odm/etc/camera/103_Fantasy.png
 odm/etc/camera/104_Meet.png
@@ -969,6 +970,8 @@ odm/lib64/camera/camxfl115indices.bin
 odm/lib64/camera/camxfl300v1indices.bin
 odm/lib64/camera/camxfl300v2indices.bin
 odm/lib64/camera/camxflcustom300indices.bin
+
+# Camera Components
 odm/lib64/camera/components/com.jigan.node.videobokeh.so;DISABLE_CHECKELF
 odm/lib64/camera/components/com.mi.node.aiasd.so;DISABLE_CHECKELF
 odm/lib64/camera/components/com.mi.node.dlengine.so;DISABLE_CHECKELF
@@ -991,6 +994,7 @@ odm/lib64/camera/components/com.qti.hvx.binning.so
 odm/lib64/camera/components/com.qti.hwcfg.bps.so
 odm/lib64/camera/components/com.qti.hwcfg.ife.so
 odm/lib64/camera/components/com.qti.hwcfg.ipe.so
+odm/lib64/camera/components/com.qti.node.afbfusion.so
 odm/lib64/camera/components/com.qti.node.aon.so;DISABLE_CHECKELF
 odm/lib64/camera/components/com.qti.node.customhwnode.so
 odm/lib64/camera/components/com.qti.node.depthprovider.so;DISABLE_CHECKELF
@@ -1069,6 +1073,8 @@ odm/lib64/camera/components/libcamxevainterface.so;DISABLE_CHECKELF
 odm/lib64/camera/components/libdepthmapwrapper_itof.so;DISABLE_CHECKELF
 odm/lib64/camera/components/libdepthmapwrapper_secure.so;DISABLE_CHECKELF
 odm/lib64/camera/components/libstats.aipdlib.so
+
+# Camera Sensormodules
 odm/lib64/camera/com.qti.actuator.houji_ofilm_s5kjn1_gt9764v_tele_actuator.so;DISABLE_CHECKELF
 odm/lib64/camera/com.qti.actuator.houji_sunny_ovx9000_ak7316_wide_actuator.so;DISABLE_CHECKELF
 odm/lib64/camera/com.qti.actuator.houji_sunny_ovx9000_ak7316_wide_ii_actuator.so;DISABLE_CHECKELF
@@ -1102,6 +1108,14 @@ odm/lib64/camera/fdconfigsecure.bin
 odm/lib64/camera/fdconfigvideo.bin
 odm/lib64/camera/fdconfigvideolite.bin
 odm/lib64/camera/libchxlogicalcameratable.so;DISABLE_CHECKELF
+
+# camera sensormodule - from cn OS2.0.200.4.VNCCNXM
+odm/lib64/camera/com.qti.sensormodule.houji_sunny_ovx9000_wide_ii.bin|3d51fcb218b940af98b9d38bdce6f60d60e88ab3
+odm/lib64/camera/com.qti.sensormodule.houji_sunny_s5kjn1_tele_ii.bin|3e88b4b54da237a24add78003c15fb031b2171df
+odm/lib64/camera/com.qti.tuned.houji_sunny_ovx9000_wide_ii.bin|b06ba8f325d510d37ba021edd387c8fddd95bc76
+odm/lib64/camera/com.qti.tuned.houji_sunny_s5kjn1_tele_ii.bin|4514407007beffc716dc937a1a91bb40a5d54a2d
+
+# Camera Plugins
 odm/lib64/camera/plugins/com.xiaomi.plugin.anchor.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.arcsoftportraitsll.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.arcsoftrawhdr.so
@@ -1130,6 +1144,8 @@ odm/lib64/camera/plugins/com.xiaomi.plugin.sr.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.supermoon.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.swflip.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.tsskinbeautifier.so
+
+# Camera ODM
 odm/lib64/camx.device-impl.so
 odm/lib64/camx.provider-impl.so
 odm/lib64/com.qti.camx.chiiqutils.so;DISABLE_CHECKELF
@@ -1213,7 +1229,8 @@ odm/lib64/libcamera_scene.so
 odm/lib64/libcamerapostproc.so;DISABLE_CHECKELF
 odm/lib64/libcamlog.so
 odm/lib64/libcamxcommonutils.so
-odm/lib64/libcamxexternalformatutils.so:vendor/lib64/libcamxexternalformatutils.so
+odm/lib64/libcamxexternalformatutils.so
+odm/lib64/libcamxexternalformatutils.so:vendor/lib64/libcamxexternalformatutils.so;MODULE_SUFFIX=_vendor
 odm/lib64/libcamxfdengine.so
 odm/lib64/libcamxhwnodecontext.so;DISABLE_CHECKELF
 odm/lib64/libcamxifestriping.so;DISABLE_CHECKELF
@@ -1250,6 +1267,7 @@ odm/lib64/libhis_face_tracking.so
 odm/lib64/libHISCppAlgos.so
 odm/lib64/libhme.so;DISABLE_CHECKELF
 odm/lib64/libhta_hexagon_runtime_snpe.so
+odm/lib64/libiccprofile.so
 odm/lib64/libIntelligentFocus.so
 odm/lib64/libipebpsstriping.so;DISABLE_CHECKELF
 odm/lib64/libipebpsstriping170.so;DISABLE_CHECKELF
@@ -1340,8 +1358,10 @@ odm/lib64/libSnpeHtpV68Stub.so
 odm/lib64/libSnpeHtpV69Stub.so
 odm/lib64/libSnpeHtpV73Stub.so
 odm/lib64/libSnpeHtpV75Stub.so
+odm/lib64/libsfeShiftExtrapolation.so
 odm/lib64/libsnpe_config.so;DISABLE_CHECKELF
 odm/lib64/libsupermoon.so
+odm/lib64/libswregistrationalgo.so
 odm/lib64/libtfestriping.so;DISABLE_CHECKELF
 odm/lib64/libtunningmemhook.so;DISABLE_CHECKELF
 odm/lib64/libTrueSight.so;DISABLE_CHECKELF
@@ -1352,6 +1372,9 @@ odm/lib64/libwrapper_dlengine.so;DISABLE_CHECKELF
 odm/lib64/libXMFaceFocus.so
 odm/lib64/libxmi_hdr_checker.so
 odm/lib64/libxmi_slow_motion_mein.so
+
+# Camera vendor
+vendor/data/model/seg_quantized.serialized.8650.pertensor_512_cls3r.bin
 vendor/etc/camera/cameraopt_vendor.json
 vendor/lib64/libcameraopt.so
 vendor/lib64/libhalide_hexagon_host.so
@@ -1360,20 +1383,12 @@ vendor/lib64/libmidebuggerdimpl_vendor.so;DISABLE_CHECKELF
 vendor/lib64/libmilut.so
 vendor/lib64/libmips.so
 vendor/lib64/libmisr.so
-vendor/lib64/libopencl_loader.so
 vendor/lib64/libqshcamera.so
 vendor/lib64/libqvr_cam_cdsp_driver_stub.so
 vendor/lib64/libqvr_cdsp_driver_stub.so
 vendor/lib64/libqvr_eyetracking_plugin.so
 vendor/lib64/libqvrcamera_client.qti.so
-vendor/lib64/libSNPESample.so
 vendor/lib64/libtracker_6dof_impl.so
-
-# camera sensormodule - from cn OS2.0.200.4.VNCCNXM
-odm/lib64/camera/com.qti.sensormodule.houji_sunny_ovx9000_wide_ii.bin|3d51fcb218b940af98b9d38bdce6f60d60e88ab3
-odm/lib64/camera/com.qti.sensormodule.houji_sunny_s5kjn1_tele_ii.bin|3e88b4b54da237a24add78003c15fb031b2171df
-odm/lib64/camera/com.qti.tuned.houji_sunny_ovx9000_wide_ii.bin|b06ba8f325d510d37ba021edd387c8fddd95bc76
-odm/lib64/camera/com.qti.tuned.houji_sunny_s5kjn1_tele_ii.bin|4514407007beffc716dc937a1a91bb40a5d54a2d
 
 # Camera Firmware
 odm/firmware/houji_s5kjn1_bu24618_ois_bmi26x.coeff
