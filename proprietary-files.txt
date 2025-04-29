@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Xiaomi 14 (OS1.0.12.0.UNCMIXM)
+## are from Xiaomi POCO F7 Pro (OS2.0.104.0.VOKMIXM)
 
 # ACDB
 odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:odm/etc/acdbdata/pineapple_mtp/Tutu_acdb_cal.acdb
@@ -279,12 +279,12 @@ odm/etc/camera/facesr_hd_composite_ff_hd_6.0.7_qcom8650_qnn_segqnn_hdRGB20240320
 odm/etc/camera/GpuKernelRepo.pb
 odm/etc/camera/hdrcheckerextendparamsettings.yml
 odm/etc/camera/hdrcheckerparamsettings.yml
-odm/etc/camera/houji_ofilm_s5kjn1_gt24p128f_tele_eeprom_gloden.bin
-odm/etc/camera/houji_sunny_ov32b_p24c64f_front_eeprom_gloden.bin
-odm/etc/camera/houji_sunny_ovx9000_p24c128e_wide_eeprom_gloden.bin
-odm/etc/camera/houji_sunny_ovx9000_p24c128e_wide_ii_eeprom_gloden.bin
-odm/etc/camera/houji_sunny_s5kjn1_gt24p128f_ultra_eeprom_gloden.bin
-odm/etc/camera/houji_sunny_s5kjn1_p24c128f_tele_ii_eeprom_gloden.bin
+odm/etc/camera/zorn_ofilm_s5kjn1_gt24p128f_tele_eeprom_gloden.bin
+odm/etc/camera/zorn_sunny_ov32b_p24c64f_front_eeprom_gloden.bin
+odm/etc/camera/zorn_sunny_ovx9000_p24c128e_wide_eeprom_gloden.bin
+odm/etc/camera/zorn_sunny_ovx9000_p24c128e_wide_ii_eeprom_gloden.bin
+odm/etc/camera/zorn_sunny_s5kjn1_gt24p128f_ultra_eeprom_gloden.bin
+odm/etc/camera/zorn_sunny_s5kjn1_p24c128f_tele_ii_eeprom_gloden.bin
 odm/etc/camera/IntellFocus_class_all.dlc
 odm/etc/camera/IntellFocus_class_human.dlc
 odm/etc/camera/IntellFocus_classify.dlc
@@ -1075,33 +1075,33 @@ odm/lib64/camera/components/libdepthmapwrapper_secure.so;DISABLE_CHECKELF
 odm/lib64/camera/components/libstats.aipdlib.so
 
 # Camera Sensormodules
-odm/lib64/camera/com.qti.actuator.houji_ofilm_s5kjn1_gt9764v_tele_actuator.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.actuator.houji_sunny_ovx9000_ak7316_wide_actuator.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.actuator.houji_sunny_ovx9000_ak7316_wide_ii_actuator.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.actuator.houji_sunny_s5kjn1_gt9764v_tele_ii_actuator.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.eeprom.houji_ofilm_s5kjn1_gt24p128f_tele_eeprom.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.eeprom.houji_sunny_ov32b_p24c64f_front_eeprom.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.eeprom.houji_sunny_ovx9000_p24c128e_wide_eeprom.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.eeprom.houji_sunny_ovx9000_p24c128e_wide_ii_eeprom.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.eeprom.houji_sunny_s5kjn1_gt24p128f_ultra_eeprom.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.eeprom.houji_sunny_s5kjn1_p24c128f_tele_ii_eeprom.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.ois.houji_s5kjn1_bu24618_ois_ii.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.ois.houji_s5kjn1_bu24618_ois.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.sensor.houji_ofilm_s5kjn1_tele.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.sensor.houji_sunny_ov32b40_front.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.sensor.houji_sunny_ovx9000_wide_ii.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.sensor.houji_sunny_ovx9000_wide.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.sensor.houji_sunny_s5kjn1_tele_ii.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.sensor.houji_sunny_s5kjn1_ultra.so;DISABLE_CHECKELF
-odm/lib64/camera/com.qti.sensormodule.houji_ofilm_s5kjn1_tele.bin
-odm/lib64/camera/com.qti.sensormodule.houji_sunny_ov32b40_front.bin
-odm/lib64/camera/com.qti.sensormodule.houji_sunny_ovx9000_wide.bin
-odm/lib64/camera/com.qti.sensormodule.houji_sunny_s5kjn1_ultra.bin
+odm/lib64/camera/com.qti.actuator.zorn_ofilm_s5kjn1_gt9764v_tele_actuator.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.actuator.zorn_sunny_ovx9000_ak7316_wide_actuator.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.actuator.zorn_sunny_ovx9000_ak7316_wide_ii_actuator.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.actuator.zorn_sunny_s5kjn1_gt9764v_tele_ii_actuator.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.eeprom.zorn_ofilm_s5kjn1_gt24p128f_tele_eeprom.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.eeprom.zorn_sunny_ov32b_p24c64f_front_eeprom.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.eeprom.zorn_sunny_ovx9000_p24c128e_wide_eeprom.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.eeprom.zorn_sunny_ovx9000_p24c128e_wide_ii_eeprom.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.eeprom.zorn_sunny_s5kjn1_gt24p128f_ultra_eeprom.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.eeprom.zorn_sunny_s5kjn1_p24c128f_tele_ii_eeprom.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.ois.zorn_s5kjn1_bu24618_ois_ii.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.ois.zorn_s5kjn1_bu24618_ois.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.sensor.zorn_ofilm_s5kjn1_tele.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.sensor.zorn_sunny_ov32b40_front.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.sensor.zorn_sunny_ovx9000_wide_ii.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.sensor.zorn_sunny_ovx9000_wide.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.sensor.zorn_sunny_s5kjn1_tele_ii.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.sensor.zorn_sunny_s5kjn1_ultra.so;DISABLE_CHECKELF
+odm/lib64/camera/com.qti.sensormodule.zorn_ofilm_s5kjn1_tele.bin
+odm/lib64/camera/com.qti.sensormodule.zorn_sunny_ov32b40_front.bin
+odm/lib64/camera/com.qti.sensormodule.zorn_sunny_ovx9000_wide.bin
+odm/lib64/camera/com.qti.sensormodule.zorn_sunny_s5kjn1_ultra.bin
 odm/lib64/camera/com.qti.tuned.default.bin
-odm/lib64/camera/com.qti.tuned.houji_ofilm_s5kjn1_tele.bin
-odm/lib64/camera/com.qti.tuned.houji_sunny_ov32b40_front.bin
-odm/lib64/camera/com.qti.tuned.houji_sunny_ovx9000_wide.bin
-odm/lib64/camera/com.qti.tuned.houji_sunny_s5kjn1_ultra.bin
+odm/lib64/camera/com.qti.tuned.zorn_ofilm_s5kjn1_tele.bin
+odm/lib64/camera/com.qti.tuned.zorn_sunny_ov32b40_front.bin
+odm/lib64/camera/com.qti.tuned.zorn_sunny_ovx9000_wide.bin
+odm/lib64/camera/com.qti.tuned.zorn_sunny_s5kjn1_ultra.bin
 odm/lib64/camera/fdconfigpreview.bin
 odm/lib64/camera/fdconfigpreviewlite.bin
 odm/lib64/camera/fdconfigsecure.bin
@@ -1110,10 +1110,10 @@ odm/lib64/camera/fdconfigvideolite.bin
 odm/lib64/camera/libchxlogicalcameratable.so;DISABLE_CHECKELF
 
 # camera sensormodule - from cn OS2.0.200.4.VNCCNXM
-odm/lib64/camera/com.qti.sensormodule.houji_sunny_ovx9000_wide_ii.bin|3d51fcb218b940af98b9d38bdce6f60d60e88ab3
-odm/lib64/camera/com.qti.sensormodule.houji_sunny_s5kjn1_tele_ii.bin|3e88b4b54da237a24add78003c15fb031b2171df
-odm/lib64/camera/com.qti.tuned.houji_sunny_ovx9000_wide_ii.bin|b06ba8f325d510d37ba021edd387c8fddd95bc76
-odm/lib64/camera/com.qti.tuned.houji_sunny_s5kjn1_tele_ii.bin|4514407007beffc716dc937a1a91bb40a5d54a2d
+odm/lib64/camera/com.qti.sensormodule.zorn_sunny_ovx9000_wide_ii.bin|3d51fcb218b940af98b9d38bdce6f60d60e88ab3
+odm/lib64/camera/com.qti.sensormodule.zorn_sunny_s5kjn1_tele_ii.bin|3e88b4b54da237a24add78003c15fb031b2171df
+odm/lib64/camera/com.qti.tuned.zorn_sunny_ovx9000_wide_ii.bin|b06ba8f325d510d37ba021edd387c8fddd95bc76
+odm/lib64/camera/com.qti.tuned.zorn_sunny_s5kjn1_tele_ii.bin|4514407007beffc716dc937a1a91bb40a5d54a2d
 
 # Camera Plugins
 odm/lib64/camera/plugins/com.xiaomi.plugin.anchor.so
@@ -1391,24 +1391,24 @@ vendor/lib64/libqvrcamera_client.qti.so
 vendor/lib64/libtracker_6dof_impl.so
 
 # Camera Firmware
-odm/firmware/houji_s5kjn1_bu24618_ois_bmi26x.coeff
-odm/firmware/houji_s5kjn1_bu24618_ois_bmi26x.mem
-odm/firmware/houji_s5kjn1_bu24618_ois_bmi26x.prog
-odm/firmware/houji_s5kjn1_bu24618_ois.coeff
-odm/firmware/houji_s5kjn1_bu24618_ois_ii_bmi26x.coeff
-odm/firmware/houji_s5kjn1_bu24618_ois_ii_bmi26x.mem
-odm/firmware/houji_s5kjn1_bu24618_ois_ii_bmi26x.prog
-odm/firmware/houji_s5kjn1_bu24618_ois_ii.coeff
-odm/firmware/houji_s5kjn1_bu24618_ois_ii_lsm6dso.coeff
-odm/firmware/houji_s5kjn1_bu24618_ois_ii_lsm6dso.mem
-odm/firmware/houji_s5kjn1_bu24618_ois_ii_lsm6dso.prog
-odm/firmware/houji_s5kjn1_bu24618_ois_ii.mem
-odm/firmware/houji_s5kjn1_bu24618_ois_ii.prog
-odm/firmware/houji_s5kjn1_bu24618_ois_lsm6dso.coeff
-odm/firmware/houji_s5kjn1_bu24618_ois_lsm6dso.mem
-odm/firmware/houji_s5kjn1_bu24618_ois_lsm6dso.prog
-odm/firmware/houji_s5kjn1_bu24618_ois.mem
-odm/firmware/houji_s5kjn1_bu24618_ois.prog
+odm/firmware/zorn_s5kjn1_bu24618_ois_bmi26x.coeff
+odm/firmware/zorn_s5kjn1_bu24618_ois_bmi26x.mem
+odm/firmware/zorn_s5kjn1_bu24618_ois_bmi26x.prog
+odm/firmware/zorn_s5kjn1_bu24618_ois.coeff
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii_bmi26x.coeff
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii_bmi26x.mem
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii_bmi26x.prog
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii.coeff
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii_lsm6dso.coeff
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii_lsm6dso.mem
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii_lsm6dso.prog
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii.mem
+odm/firmware/zorn_s5kjn1_bu24618_ois_ii.prog
+odm/firmware/zorn_s5kjn1_bu24618_ois_lsm6dso.coeff
+odm/firmware/zorn_s5kjn1_bu24618_ois_lsm6dso.mem
+odm/firmware/zorn_s5kjn1_bu24618_ois_lsm6dso.prog
+odm/firmware/zorn_s5kjn1_bu24618_ois.mem
+odm/firmware/zorn_s5kjn1_bu24618_ois.prog
 
 # Displayfeature (configs)
 odm/etc/df_default.xml
@@ -1531,9 +1531,9 @@ odm/etc/sensors/config/tcs3408.json
 odm/etc/sensors/config/vl53l1_tof_0.json
 
 # Touchscreen
-odm/firmware/houji_syna_thp_config.ini
-odm/firmware/houji_test_limits_S3910P.csv
-odm/firmware/synaptics_spi_houji.img
+odm/firmware/zorn_syna_thp_config.ini
+odm/firmware/zorn_test_limits_S3910P.csv
+odm/firmware/synaptics_spi_zorn.img
 
 # Thermal config
 odm/etc/thermal-4k.conf

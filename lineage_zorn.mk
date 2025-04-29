@@ -11,20 +11,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from houji device.
-$(call inherit-product, device/xiaomi/houji/device.mk)
+# Inherit from zorn device.
+$(call inherit-product, device/xiaomi/zorn/device.mk)
 
 ## Device identifier
-PRODUCT_DEVICE := houji
-PRODUCT_NAME := lineage_houji
+PRODUCT_DEVICE := zorn
+PRODUCT_NAME := lineage_zorn
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := 23127PN0CG
+PRODUCT_MODEL := 24117RK2CG
 PRODUCT_MANUFACTURER := xiaomi
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list, "houji miproduct 15 AQ3A.240627.003 OS2.0.200.4.VNCCNXM release-keys")
+#TODO Update
 
-BUILD_FINGERPRINT := Xiaomi/houji/miproduct:15/AQ3A.240627.003/OS2.0.200.4.VNCCNXM:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc=$(call normalize-path-list, "zorn miproduct 15 AQ3A.240829.003 OS2.0.200.4.VNCCNXM release-keys")
+
+BUILD_FINGERPRINT := Xiaomi/zorn/miproduct:15/AQ3A.240627.003/OS2.0.200.4.VNCCNXM:user/release-keys
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
