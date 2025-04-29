@@ -24,9 +24,9 @@ PRODUCT_MANUFACTURER := xiaomi
 #TODO Update
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list, "zorn miproduct 15 AQ3A.240829.003 OS2.0.200.4.VNCCNXM release-keys")
+    BuildDesc=$(call normalize-path-list, "zorn miproduct 14 UKQ1.240624.001 OS2.0.101.0.VOKCNXM release-keys")
 
-BUILD_FINGERPRINT := Xiaomi/zorn/miproduct:15/AQ3A.240627.003/OS2.0.200.4.VNCCNXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/zorn/zorn:14/UKQ1.240624.001/OS2.0.101.0.VOKCNXM:user/release-keys
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
